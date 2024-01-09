@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Frank+Ruhl+Libre:wght@300&family=Fuggles&family=Martel+Sans:wght@600&family=Playball&display=swap');
+*{
+    font-family: 'Frank Ruhl Libre', serif;
+padding: 0;
+margin: 0;
+}
+.main{
+    background-image: url("bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1100px,100vw);
+    height: 75vh;
+    position: relative;
+}
+.main .box{
+height: 75vh;
+width: 100%;
+opacity: 0.65;
+background-color: black;
+position: absolute;
+top: 0;
+}
+body{
+    background-color: black;
+}
+nav{
+    max-width: 70vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    color: red;
+    width: 140px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+.p1{
+    font-family: 'Martel Sans', sans-serif;
+    height:calc(100%-60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 22px;
+    padding: 140px;
+}
+.p1>:first-child{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+    padding: 32px 0;
+}
+.p1>:nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+}
+.p1>:nth-child(3){
+    font-weight: 400;
+    font-size: 20;
+    text-align: center;
+}
+.break{
+    height: 6px;
+    background-color: rgb(65, 64, 64);
+}
+.btn{
+    font-weight: 400;
+    background-color: rgba(245, 242, 242, 0.057);
+    color: white;
+    border: 1px solid whitesmoke;
+    padding: 3px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+.btn-red1{
+    background-color: red;
+    color:white;
+    
+
+}
+.btn-red2{
+    background-color: red;
+    color:white;
+    padding: 7px;
+    font-weight:400 ;
+
+}
+.p1-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.p1-btn input{
+    color: white;
+    padding: 6px 38px 7px 7px;
+  border: 2px solid rgba(241, 236, 236, 0.461);
+  background-color: rgba(26, 26, 26, 0.8);
+  font-size: 12px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+}
+@media screen and(max-width:1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+.firstimg{
+    position: relative;
+    
+}
+.firstimg img{
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.firstimg video{
+    top: 115px;
+    position: absolute;
+    right: 67px;
+    width: 400px;
+    
+}
+section.first >div{
+    display: flex;
+    flex-direction: column;
+}
+section.first >div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 32px 0;
+}
+section.first >div :nth-child(2){
+    font-size: 24px;
+}
+.faq h2{
+    font-size: 48px;
+    text-align: center;
+    
+}
+.faq{
+    background: black;
+    color: white;
+    padding: 30px;
+}
+.faq svg{
+    filter: invert(1);
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    justify-content: space-between;
+    background-color:#2d2d2d;
+    font-size: 24px;
+    padding: 15px;
+    max-width: 650px;
+    margin:  10px auto;
+    cursor: pointer;
+}
+.faqbox:hover{
+background-color: #414141;
+}
+footer{
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+    padding: 14px;
+}
+footer .Ques{
+    padding: 32px 0;
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 5px;
+}
+
+.foot a{
+    color: white;
+    font-size: 14px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.eng{
+    padding: 10px 4px;
+    margin: 10px;
+}
